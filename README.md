@@ -17,6 +17,8 @@
 
 **🎉 [SwiftUI 教程（中文）](https://github.com/WillieWangWei/SwiftUI-Tutorials/wiki)**
 
+此仓库的代码为完成所有教程后的最终成品，你可以直接体验多种 `SwiftUI` 特性。另外，你也可以在每个教程章节中下载对应的起始和完成代码。
+
 > **觉得不错？给个 Star 或 Follow 👌**
 
 ## 调整
@@ -27,7 +29,7 @@
 
 ### 视频
 
-由于 `GitHub Wiki` 的限制，所有视频已转码成 `GIF ` 。
+由于 `GitHub Wiki` 的限制，所有视频已转码成 `GIF` 。
 
 ### 代码
 
