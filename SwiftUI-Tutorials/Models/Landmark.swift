@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The model for an individual landmark.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ The model for an individual landmark.
+ */
 
 import SwiftUI
 import CoreLocation
@@ -16,21 +16,23 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var park: String
     var category: Category
-
+    var isFavorite: Bool
+    
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
     }
-
+    
     func image(forSize size: Int) -> Image {
         ImageStore.shared.image(name: imageName, size: size)
     }
-
+    
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
         case lakes = "Lakes"
         case rivers = "Rivers"
+        case mountains = "Mountains"
     }
 }
 
