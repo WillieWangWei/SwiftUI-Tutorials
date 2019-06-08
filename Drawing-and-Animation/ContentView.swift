@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Drawing-and-Animation
+//  SwiftUI-Tutorials
 //
 //  Created by 王炜 on 2019/6/8.
 //  Copyright © 2019 Willie. All rights reserved.
