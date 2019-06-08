@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3601E40A22ABB1E100B88B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E40922ABB1E100B88B92 /* AppDelegate.swift */; };
+		3601E40C22ABB1E100B88B92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E40B22ABB1E100B88B92 /* SceneDelegate.swift */; };
+		3601E40E22ABB1E100B88B92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E40D22ABB1E100B88B92 /* ContentView.swift */; };
+		3601E41022ABB1E300B88B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3601E40F22ABB1E300B88B92 /* Assets.xcassets */; };
+		3601E41322ABB1E300B88B92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3601E41222ABB1E300B88B92 /* Preview Assets.xcassets */; };
+		3601E41622ABB1E300B88B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3601E41422ABB1E300B88B92 /* LaunchScreen.storyboard */; };
+		3601E41C22ABB27F00B88B92 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E41B22ABB27F00B88B92 /* Badge.swift */; };
+		3601E41E22ABB30F00B88B92 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E41D22ABB30F00B88B92 /* HexagonParameters.swift */; };
+		3601E42022ABB4DD00B88B92 /* BadgeBackground.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E41F22ABB4DD00B88B92 /* BadgeBackground.swift.swift */; };
+		3601E42222ABB58000B88B92 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E42122ABB57F00B88B92 /* BadgeSymbol.swift */; };
+		3601E42422ABB63100B88B92 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3601E42322ABB63100B88B92 /* RotatedBadgeSymbol.swift */; };
 		36A89B9622AACB3B0096F89A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A89B9522AACB3B0096F89A /* UserData.swift */; };
 		36A89BA422AACDE40096F89A /* lakemcdonald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36A89B9722AACDE30096F89A /* lakemcdonald.jpg */; };
 		36A89BA522AACDE40096F89A /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36A89B9822AACDE30096F89A /* chincoteague.jpg */; };
@@ -36,6 +47,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3601E40722ABB1E100B88B92 /* Drawing-and-Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing-and-Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3601E40922ABB1E100B88B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3601E40B22ABB1E100B88B92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3601E40D22ABB1E100B88B92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3601E40F22ABB1E300B88B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3601E41222ABB1E300B88B92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3601E41522ABB1E300B88B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3601E41722ABB1E300B88B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3601E41B22ABB27F00B88B92 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		3601E41D22ABB30F00B88B92 /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		3601E41F22ABB4DD00B88B92 /* BadgeBackground.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift.swift; sourceTree = "<group>"; };
+		3601E42122ABB57F00B88B92 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		3601E42322ABB63100B88B92 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		36A89B9522AACB3B0096F89A /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		36A89B9722AACDE30096F89A /* lakemcdonald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakemcdonald.jpg; sourceTree = "<group>"; };
 		36A89B9822AACDE30096F89A /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
@@ -50,7 +74,7 @@
 		36A89BA122AACDE40096F89A /* umbagog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = umbagog.jpg; sourceTree = "<group>"; };
 		36A89BA222AACDE40096F89A /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		36A89BA322AACDE40096F89A /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
-		36C193F322A8F28C00966915 /* SwiftUI-Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C193F322A8F28C00966915 /* SwiftUI-Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Essentials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C193F622A8F28C00966915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C193F822A8F28C00966915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36C193FC22A8F29100966915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +91,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3601E40422ABB1E100B88B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36C193F022A8F28C00966915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,9 +108,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3601E40822ABB1E100B88B92 /* Drawing-and-Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3601E40922ABB1E100B88B92 /* AppDelegate.swift */,
+				3601E40F22ABB1E300B88B92 /* Assets.xcassets */,
+				3601E41B22ABB27F00B88B92 /* Badge.swift */,
+				3601E41F22ABB4DD00B88B92 /* BadgeBackground.swift.swift */,
+				3601E42122ABB57F00B88B92 /* BadgeSymbol.swift */,
+				3601E40D22ABB1E100B88B92 /* ContentView.swift */,
+				3601E41D22ABB30F00B88B92 /* HexagonParameters.swift */,
+				3601E41722ABB1E300B88B92 /* Info.plist */,
+				3601E41422ABB1E300B88B92 /* LaunchScreen.storyboard */,
+				3601E41122ABB1E300B88B92 /* Preview Content */,
+				3601E42322ABB63100B88B92 /* RotatedBadgeSymbol.swift */,
+				3601E40B22ABB1E100B88B92 /* SceneDelegate.swift */,
+			);
+			path = "Drawing-and-Animation";
+			sourceTree = "<group>";
+		};
+		3601E41122ABB1E300B88B92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3601E41222ABB1E300B88B92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		36C193EA22A8F28C00966915 = {
 			isa = PBXGroup;
 			children = (
+				3601E40822ABB1E100B88B92 /* Drawing-and-Animation */,
 				36C193F422A8F28C00966915 /* Products */,
 				36C193F522A8F28C00966915 /* SwiftUI-Tutorials */,
 			);
@@ -88,7 +147,8 @@
 		36C193F422A8F28C00966915 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36C193F322A8F28C00966915 /* SwiftUI-Tutorials.app */,
+				36C193F322A8F28C00966915 /* SwiftUI-Essentials.app */,
+				3601E40722ABB1E100B88B92 /* Drawing-and-Animation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,9 +222,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36C193F222A8F28C00966915 /* SwiftUI-Tutorials */ = {
+		3601E40622ABB1E100B88B92 /* Drawing-and-Animation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C1940722A8F29200966915 /* Build configuration list for PBXNativeTarget "SwiftUI-Tutorials" */;
+			buildConfigurationList = 3601E41822ABB1E300B88B92 /* Build configuration list for PBXNativeTarget "Drawing-and-Animation" */;
+			buildPhases = (
+				3601E40322ABB1E100B88B92 /* Sources */,
+				3601E40422ABB1E100B88B92 /* Frameworks */,
+				3601E40522ABB1E100B88B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing-and-Animation";
+			productName = "Drawing-and-Animation";
+			productReference = 3601E40722ABB1E100B88B92 /* Drawing-and-Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C193F222A8F28C00966915 /* SwiftUI-Essentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C1940722A8F29200966915 /* Build configuration list for PBXNativeTarget "SwiftUI-Essentials" */;
 			buildPhases = (
 				36C193EF22A8F28C00966915 /* Sources */,
 				36C193F022A8F28C00966915 /* Frameworks */,
@@ -174,9 +251,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-Tutorials";
+			name = "SwiftUI-Essentials";
 			productName = "SwiftUI-Tutorials";
-			productReference = 36C193F322A8F28C00966915 /* SwiftUI-Tutorials.app */;
+			productReference = 36C193F322A8F28C00966915 /* SwiftUI-Essentials.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,6 +266,9 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = Willie;
 				TargetAttributes = {
+					3601E40622ABB1E100B88B92 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					36C193F222A8F28C00966915 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -207,12 +287,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36C193F222A8F28C00966915 /* SwiftUI-Tutorials */,
+				36C193F222A8F28C00966915 /* SwiftUI-Essentials */,
+				3601E40622ABB1E100B88B92 /* Drawing-and-Animation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3601E40522ABB1E100B88B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601E41622ABB1E300B88B92 /* LaunchScreen.storyboard in Resources */,
+				3601E41322ABB1E300B88B92 /* Preview Assets.xcassets in Resources */,
+				3601E41022ABB1E300B88B92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36C193F122A8F28C00966915 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +330,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3601E40322ABB1E100B88B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3601E42222ABB58000B88B92 /* BadgeSymbol.swift in Sources */,
+				3601E41E22ABB30F00B88B92 /* HexagonParameters.swift in Sources */,
+				3601E40A22ABB1E100B88B92 /* AppDelegate.swift in Sources */,
+				3601E41C22ABB27F00B88B92 /* Badge.swift in Sources */,
+				3601E40C22ABB1E100B88B92 /* SceneDelegate.swift in Sources */,
+				3601E42022ABB4DD00B88B92 /* BadgeBackground.swift.swift in Sources */,
+				3601E40E22ABB1E100B88B92 /* ContentView.swift in Sources */,
+				3601E42422ABB63100B88B92 /* RotatedBadgeSymbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36C193EF22A8F28C00966915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +365,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3601E41422ABB1E300B88B92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3601E41522ABB1E300B88B92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		36C1940122A8F29100966915 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,6 +384,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3601E41922ABB1E300B88B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Drawing-and-Animation/Preview\\ Content";
+				DEVELOPMENT_TEAM = 625VCK4L2Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drawing-and-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Willie.Drawing-and-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3601E41A22ABB1E300B88B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Drawing-and-Animation/Preview\\ Content";
+				DEVELOPMENT_TEAM = 625VCK4L2Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drawing-and-Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Willie.Drawing-and-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		36C1940522A8F29200966915 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -427,6 +581,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3601E41822ABB1E300B88B92 /* Build configuration list for PBXNativeTarget "Drawing-and-Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3601E41922ABB1E300B88B92 /* Debug */,
+				3601E41A22ABB1E300B88B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		36C193EE22A8F28C00966915 /* Build configuration list for PBXProject "SwiftUI-Tutorials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -436,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C1940722A8F29200966915 /* Build configuration list for PBXNativeTarget "SwiftUI-Tutorials" */ = {
+		36C1940722A8F29200966915 /* Build configuration list for PBXNativeTarget "SwiftUI-Essentials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36C1940822A8F29200966915 /* Debug */,
