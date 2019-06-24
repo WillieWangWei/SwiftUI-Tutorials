@@ -39,13 +39,12 @@ struct CategoryHome: View {
                 }
                 .navigationBarTitle(Text("Featured"))
                 .navigationBarItems(trailing:
-                    PresentationButton(
+                    PresentationButton(destination: Text("User Profile")) {
                         Image(systemName: "person.crop.circle")
                             .imageScale(.large)
                             .accessibility(label: Text("User Profile"))
-                            .padding(),
-                        destination: ProfileHost()
-                    )
+                            .padding()
+                    }
             )
         }
     }
