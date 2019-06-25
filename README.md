@@ -19,6 +19,10 @@
 
 此仓库的代码为完成所有教程后的最终成品，你可以直接体验多种 `SwiftUI` 特性。另外，你也可以在每个教程章节中下载对应的起始和完成代码。
 
+完成本教程，你将获得一个这样的 App 以及一套精彩的 `SwiftUI` 代码：
+
+![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview.gif)
+
 > **觉得不错？给个 Star 或 Follow 👌**
 
 ## 调整
