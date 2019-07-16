@@ -41,27 +41,33 @@
 
 官方教程：
 
-```
-...
+```Swift
+.
+.
+.
 struct MapView: UIViewRepresentable {
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
 }
-...
+.
+.
+.
 ```
 
 这里的 `UIViewRepresentable` 是一个协议，它的声明中包含一个 `associatedtype` :
 
-```
+```Swift
 /// The type of `UIView` to be presented.
 associatedtype UIViewType : UIView
 ```
 
 在开发中，给此 `associatedtype` 赋值后 Xcode 对方法的签名补全会有变化，最终写作：
 
-```
-...
+```Swift
+.
+.
+.
 struct MapView : UIViewRepresentable {
     
     typealias UIViewType = MKMapView
@@ -70,7 +76,9 @@ struct MapView : UIViewRepresentable {
         return MKMapView(frame: .zero)
     }
 }
-...
+.
+.
+.
 ```
 
 如此修改不再一一列举，只需记得**此类修改不会改变原教程的构建结果**即可，不必过于纠结。
