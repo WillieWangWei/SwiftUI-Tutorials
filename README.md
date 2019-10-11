@@ -8,8 +8,8 @@
 
 > **构建示例项目需要以下环境：**
 > 
-> * macOS 10.15 beta 或更高
-> * Xcode 11.0 beta 或更高
+> * macOS 10.15 Catalina 或更高
+> * Xcode 11.1 或更高
 
 # 概述 
 
