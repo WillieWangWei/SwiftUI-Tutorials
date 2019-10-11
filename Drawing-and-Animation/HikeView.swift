@@ -14,7 +14,7 @@ struct HikeView: View {
     var transition: AnyTransition {
         let insertion = AnyTransition.move(edge: .trailing)
             .combined(with: .opacity)
-        let removal = AnyTransition.scale()
+        let removal = AnyTransition.scale
             .combined(with: .opacity)
         return .asymmetric(insertion: insertion, removal: removal)
     }
@@ -33,7 +33,7 @@ struct HikeView: View {
                 }
                 
                 Spacer()
-                
+
                 Button(action: {
                     withAnimation {
                         self.showDetail.toggle()
@@ -46,7 +46,7 @@ struct HikeView: View {
                         .padding()
                 }
             }
-            
+
             if showDetail {
                 HikeDetail(hike: hike)
                     .transition(transition)
@@ -55,7 +55,6 @@ struct HikeView: View {
     }
 }
 
-#if DEBUG
 struct HikeView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
@@ -65,4 +64,3 @@ struct HikeView_Previews: PreviewProvider {
         }
     }
 }
-#endif
