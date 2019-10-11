@@ -2,7 +2,7 @@
 //  CircleImage.swift
 //  SwiftUI-Essentials
 //
-//  Created by 王炜 on 2019/6/5.
+//  Created by Willie on 2019/6/5.
 //  Copyright © 2019 Willie. All rights reserved.
 //
 

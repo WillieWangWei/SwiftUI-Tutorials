@@ -2,7 +2,7 @@
 //  Badge.swift
 //  Drawing-and-Animation
 //
-//  Created by 王炜 on 2019/6/8.
+//  Created by Willie on 2019/6/8.
 //  Copyright © 2019 Willie. All rights reserved.
 //
 

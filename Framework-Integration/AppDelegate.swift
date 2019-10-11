@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Framework-Integration
 //
-//  Created by 王炜 on 2019/6/9.
+//  Created by Willie on 2019/6/9.
 //
 
 import UIKit

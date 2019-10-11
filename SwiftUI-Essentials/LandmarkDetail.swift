@@ -2,7 +2,7 @@
 //  LandmarkDetail.swift
 //  SwiftUI-Essentials
 //
-//  Created by 王炜 on 2019/6/4.
+//  Created by Willie on 2019/6/4.
 //  Copyright © 2019 Willie. All rights reserved.
 //
 
@@ -22,7 +22,7 @@ struct LandmarkDetail: View {
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)
             
-            CircleImage(image: landmark.image(forSize: 250))
+            CircleImage(image: landmark.image)
                 .offset(x: 0, y: -130)
                 .padding(.bottom, -130)
             
@@ -53,15 +53,14 @@ struct LandmarkDetail: View {
                     Text(verbatim: landmark.state)
                         .font(.subheadline)
                 }
-                }
-                .padding()
+            }
+            .padding()
             
             Spacer()
         }
     }
 }
 
-#if DEBUG
 struct LandmarkDetail_Preview: PreviewProvider {
     static var previews: some View {
         let userData = UserData()
@@ -69,5 +68,3 @@ struct LandmarkDetail_Preview: PreviewProvider {
             .environmentObject(userData)
     }
 }
-#endif
-
