@@ -42,10 +42,8 @@ struct BadgeSymbol: View {
     }
 }
 
-#if DEBUG
 struct BadgeSymbol_Previews: PreviewProvider {
     static var previews: some View {
         BadgeSymbol()
     }
 }
-#endif

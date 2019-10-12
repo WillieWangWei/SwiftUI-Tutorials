@@ -36,27 +36,20 @@ func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
 }
 
 final class ImageStore {
-    fileprivate typealias _ImageDictionary = [String: [Int: CGImage]]
+    typealias _ImageDictionary = [String: CGImage]
     fileprivate var images: _ImageDictionary = [:]
 
-    fileprivate static var originalSize = 250
     fileprivate static var scale = 2
     
     static var shared = ImageStore()
     
-    func image(name: String, size: Int) -> Image {
-        let index = _guaranteeInitialImage(name: name)
+    func image(name: String) -> Image {
+        let index = _guaranteeImage(name: name)
         
-        let sizedImage = images.values[index][size]
-            ?? _sizeImage(images.values[index][ImageStore.originalSize]!, to: size * ImageStore.scale)
-        images.values[index][size] = sizedImage
-        
-        return Image(sizedImage, scale: Length(ImageStore.scale), label: Text(verbatim: name))
+        return Image(images.values[index], scale: CGFloat(ImageStore.scale), label: Text(verbatim: name))
     }
 
-    fileprivate func _guaranteeInitialImage(name: String) -> _ImageDictionary.Index {
-        if let index = images.index(forKey: name) { return index }
-        
+    static func loadImage(name: String) -> CGImage {
         guard
             let url = Bundle.main.url(forResource: name, withExtension: "jpg"),
             let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
@@ -64,32 +57,13 @@ final class ImageStore {
         else {
             fatalError("Couldn't load image \(name).jpg from main bundle.")
         }
-        
-        images[name] = [ImageStore.originalSize: image]
-        return images.index(forKey: name)!
+        return image
     }
     
-    fileprivate func _sizeImage(_ image: CGImage, to size: Int) -> CGImage {
-        guard
-            let colorSpace = image.colorSpace,
-            let context = CGContext(
-                data: nil,
-                width: size, height: size,
-                bitsPerComponent: image.bitsPerComponent,
-                bytesPerRow: image.bytesPerRow,
-                space: colorSpace,
-                bitmapInfo: image.bitmapInfo.rawValue)
-            else {
-                fatalError("Couldn't create graphics context.")
-        }
-        context.interpolationQuality = .high
-        context.draw(image, in: CGRect(x: 0, y: 0, width: size, height: size))
+    fileprivate func _guaranteeImage(name: String) -> _ImageDictionary.Index {
+        if let index = images.index(forKey: name) { return index }
         
-        if let sizedImage = context.makeImage() {
-            return sizedImage
-        } else {
-            fatalError("Couldn't resize image.")
-        }
+        images[name] = ImageStore.loadImage(name: name)
+        return images.index(forKey: name)!
     }
 }
-

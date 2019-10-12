@@ -22,10 +22,8 @@ struct HikeBadge: View {
     }
 }
 
-#if DEBUG
-struct HikeBadge_Previews : PreviewProvider {
+struct HikeBadge_Previews: PreviewProvider {
     static var previews: some View {
         HikeBadge(name: "Preview Testing")
     }
 }
-#endif

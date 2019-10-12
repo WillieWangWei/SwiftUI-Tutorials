@@ -14,7 +14,7 @@ struct HikeView: View {
     var transition: AnyTransition {
         let insertion = AnyTransition.move(edge: .trailing)
             .combined(with: .opacity)
-        let removal = AnyTransition.scale()
+        let removal = AnyTransition.scale
             .combined(with: .opacity)
         return .asymmetric(insertion: insertion, removal: removal)
     }
@@ -36,7 +36,7 @@ struct HikeView: View {
 
                 Button(action: {
                     withAnimation {
-                    	self.showDetail.toggle()
+                        self.showDetail.toggle()
                     }
                 }) {
                     Image(systemName: "chevron.right.circle")
@@ -49,13 +49,12 @@ struct HikeView: View {
 
             if showDetail {
                 HikeDetail(hike: hike)
-                	.transition(transition)
+                    .transition(transition)
             }
         }
     }
 }
 
-#if DEBUG
 struct HikeView_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
@@ -65,4 +64,3 @@ struct HikeView_Previews: PreviewProvider {
         }
     }
 }
-#endif

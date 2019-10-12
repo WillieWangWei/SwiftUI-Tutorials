@@ -55,10 +55,8 @@ struct BadgeBackground: View {
     static let gradientEnd = Color(red: 239.0 / 255, green: 172.0 / 255, blue: 120.0 / 255)
 }
 
-#if DEBUG
 struct BadgeBackground_Previews: PreviewProvider {
     static var previews: some View {
         BadgeBackground()
     }
 }
-#endif
