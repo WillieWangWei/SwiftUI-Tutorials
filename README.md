@@ -96,6 +96,12 @@ struct MapView : UIViewRepresentable {
 
 如此修改不再一一列举，只需记得**此类修改不会改变原教程的构建结果**即可，不必过于纠结。
 
+## Stargazers over time
+
+[![Sparkline](https://stars.medv.io/WillieWangWei/SwiftUI-Tutorials.svg)](https://stars.medv.io/WillieWangWei/SwiftUI-Tutorials)
+
+[![Stargazers over time](https://starchart.cc/WillieWangWei/SwiftUI-Tutorials.svg)](https://starchart.cc/WillieWangWei/SwiftUI-Tutorials)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/LICENSE) file for details.
