@@ -96,6 +96,12 @@ struct MapView : UIViewRepresentable {
 
 如此修改不再一一列举，只需记得**此类修改不会改变原教程的构建结果**即可，不必过于纠结。
 
+## 微信技术群
+
+`SwiftUI` 代表未来构建 App 的方向，欢迎加群一起交流技术，解决问题。
+
+![](https://raw.githubusercontent.com/WillieWangWei/Flutter-Debug/master/Wechat.png)
+
 ## Stargazers over time
 
 [![Sparkline](https://stars.medv.io/WillieWangWei/SwiftUI-Tutorials.svg)](https://stars.medv.io/WillieWangWei/SwiftUI-Tutorials)
