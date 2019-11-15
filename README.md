@@ -100,7 +100,9 @@ struct MapView : UIViewRepresentable {
 
 `SwiftUI` 代表未来构建 App 的方向，欢迎加群一起交流技术，解决问题。
 
-![](https://raw.githubusercontent.com/WillieWangWei/Flutter-Debug/master/Wechat-3.png)
+**加群现在需要申请了，可以先加我微信，备注 "SwiftUI"，我会拉你进群。**
+
+![](https://raw.githubusercontent.com/WillieWangWei/Flutter-Debug/master/Wechat.png)
 
 ## Stargazers over time
 
