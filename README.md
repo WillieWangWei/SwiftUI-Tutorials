@@ -23,9 +23,11 @@
 
 完成本教程，你将获得一个这样的 App 以及一套精彩的 `SwiftUI` 代码：
 
-![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview-iOS.gif)
-
-![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview-watchOS.gif)
+| 平台 | 预览 |
+| - | - |
+| iOS | ![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview-iOS.gif) |
+| watchOS | ![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview-watchOS.gif) |
+| macOS | ![](https://github.com/WillieWangWei/SwiftUI-Tutorials/blob/master/preview-macOS.gif) |
 
 > **觉得不错？给个 Star 或 Follow 👌**
 
@@ -39,6 +41,7 @@
 | v1.0.3 | 新增章节《创建 watchOS App》<br>修复代码bug<br>增加 watchOS App 成品预览<br> |
 | v1.0.4 | 同步官方文档 |
 | v1.0.5 | 添加 Wiki 子模块 |
+| v1.0.6 | 新增章节《创建 macOS App》 |
 
 ## 调整
 
